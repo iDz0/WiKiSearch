@@ -14,7 +14,12 @@
             margin: 100px auto 50px auto;
         }
 
-        form{
+        h2{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .form{
             width: 500px;
             height: 50px;
             margin: auto;
@@ -37,6 +42,30 @@
             margin: 50px auto;
         }
 
+        main{
+            float: left;
+            width: 50%;
+            margin: 25px auto;
+            border-right: 1px solid black;
+        }
+
+        aside{
+            float: right;
+            width: 49.8%;
+            height: 100%;
+            margin: 25px auto;
+            border-left: 1px solid black;
+        }
+
+        .all{
+            height: auto;
+        }
+
+        .more{
+            margin: 50px;
+            text-align: center;
+            font-size: 2àpx;
+        }
         
 
     </style>
@@ -48,16 +77,23 @@
     <header>
         <h1>WiKiSearch</h1>
 
-        <form>
+        <div class="form">
             <input type="text">
-        </form>
+        </div>
+        
     </header>
 
+    <div class="all">
+        <main></main>
 
-    <main></main>
+        <aside></aside>
+    </div>
 
 
     <footer><script type="text/javascript" src="script.js"></script></footer>
     
 </body>
 </html>
+
+
+863568bbc54c4167b5dab0f1396b1902
